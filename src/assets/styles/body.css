@@ -6,6 +6,8 @@
   padding: 5.6rem 5.6rem 0 5.6rem;
 }
 
+/* HEADER */
+
 .header {
   display: flex;
   flex-direction: column;
@@ -29,6 +31,12 @@
   display: block;
 }
 
+/* MAIN */
+
+.main{
+  padding-top: 3.2rem;
+}
+
 @media (max-width: 1200px) {
   .body__container {
     padding: 3.2rem 3.2rem;
@@ -45,6 +53,8 @@
   .body__container {
     padding: 4rem 1.6rem;
   }
+
+  /* HEADER */
 
   .header {
     display: flex;
@@ -65,5 +75,11 @@
   }
   .header__logo {
     display: none;
+  }
+
+  /* MAIN */
+
+  .main{
+    padding-top: 2.4rem;
   }
 }

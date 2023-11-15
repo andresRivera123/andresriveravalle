@@ -55,6 +55,11 @@
   color: var(--interactive-color);
 }
 
+.text__interactive-bold {
+  color: var(--interactive-color);
+  font-weight: bold;
+}
+
 @media (max-width: 1200px) {
   .title__name {
     font-size: 4rem;

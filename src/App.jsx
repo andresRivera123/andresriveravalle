@@ -1,12 +1,14 @@
 import "./App.css";
+import Tabs from "./assets/components/Tabs";
 import imageLogo from "./assets/images/LogoImage.png";
 import "./assets/styles/body.css";
+import { tabs } from "./assets/utils/tabsDetails";
 function App() {
   return (
     <div className="body__container">
       <header className="header">
         <div className="header__container">
-          <img src={imageLogo} alt="Image logo" className="header__logo"/>
+          <img src={imageLogo} alt="Image logo" className="header__logo" />
           <div className="header__title">
             <h1 className="title__name">Andres Rivera Valle</h1>
             <h2 className="title text__interactive">
@@ -19,6 +21,9 @@ function App() {
           </div>
         </div>
       </header>
+      <main className="main">
+        <Tabs tabs={tabs} />
+      </main>
     </div>
   );
 }
