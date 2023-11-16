@@ -7,6 +7,8 @@
   --gray-color: #555555;
   --gray-light-color: #cdcdcd;
   --white-color: #ffffff;
+  /* # */
+  --random: calc(Math.random());
 }
 
 /* Fonts */
@@ -44,36 +46,40 @@
   color: var(--title-color);
 }
 
-.text {
-  font-family: SFpro, sans-serif;
+.subtitle {
+  font-family: SFpro-Title, sans-serif;
+  font-weight: bold;
   font-size: 2rem;
   margin: 0;
+  color: var(--title-color);
+}
+
+.text {
+  font-family: SFpro, sans-serif;
+  font-size: 1.8rem;
+  margin: 0;
   color: var(--text-color);
+}
+
+.text__mb {
+  margin-bottom: 0.5rem;
 }
 
 .text__interactive {
   color: var(--interactive-color);
 }
 
-.text__interactive-bold {
-  color: var(--interactive-color);
-  font-weight: bold;
-}
-
 @media (max-width: 1200px) {
   .title__name {
     font-size: 4rem;
-    margin: 0;
   }
 
   .title {
     font-size: 2rem;
-    margin: 0;
   }
 
   .text {
     font-size: 1.6rem;
-    margin: 0;
   }
 
   .text__interactive {

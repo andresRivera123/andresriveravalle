@@ -1,0 +1,51 @@
+.about__who{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2.4rem;
+    gap: 2.4rem;
+}
+
+.who__images{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.who__image{
+    max-width: 250px;
+}
+
+.who__icons{
+    display: flex;
+    justify-content: center;
+    gap: 2.4rem;
+}
+
+.who__texts{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 1.6rem;
+}
+
+.who__link{
+    display: flex;
+    gap: 0.8rem;
+    justify-content: end;
+}
+
+.about__toolbox{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3.2rem;
+}
+
+@media (max-width: 800px){
+    .about__who{
+
+        flex-direction: column;
+        padding-top: 2.4rem;
+        gap: 2.4rem;
+    }
+    
+}

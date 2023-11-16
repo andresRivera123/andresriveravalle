@@ -1,12 +1,15 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/tabs.css";
 
 const Tabs = ({ tabs }) => {
   const [activeTab, setActiveTab] = useState(0);
 
   const handleTabClick = (index) => {
+    //Actualiza el valor de --random cada vez que se activa una pestaña
+    document.documentElement.style.setProperty('--random', Math.random() < 0.5 ? -1 : 1);
     setActiveTab(index);
   };
+
 
   return (
     <div className="tabs">
@@ -18,7 +21,7 @@ const Tabs = ({ tabs }) => {
             onClick={() => handleTabClick(index)}
           >
             <img src={tab.icon} alt={tab.label} className="tab-icon" />
-            <span className="title tab__label">{tab.label}</span>
+            <span className="subtitle tab__label text__interactive">{tab.label}</span>
           </div>
         ))}
       </div>
