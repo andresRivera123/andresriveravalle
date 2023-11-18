@@ -5,8 +5,6 @@ const Tabs = ({ tabs }) => {
   const [activeTab, setActiveTab] = useState(0);
 
   const handleTabClick = (index) => {
-    //Actualiza el valor de --random cada vez que se activa una pestaña
-    document.documentElement.style.setProperty('--random', Math.random() < 0.5 ? -1 : 1);
     setActiveTab(index);
   };
 

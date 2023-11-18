@@ -7,8 +7,6 @@
   --gray-color: #555555;
   --gray-light-color: #cdcdcd;
   --white-color: #ffffff;
-  /* # */
-  --random: calc(Math.random());
 }
 
 /* Fonts */
