@@ -10,7 +10,6 @@ const Tabs = ({ tabs }) => {
     setActiveTab(index);
   };
 
-
   return (
     <div className="tabs">
       <div className="tabs__container">
@@ -21,7 +20,7 @@ const Tabs = ({ tabs }) => {
             onClick={() => handleTabClick(index)}
           >
             <img src={tab.icon} alt={tab.label} className="tab-icon" />
-            <span className="subtitle tab__label text__interactive">{tab.label}</span>
+            <span className="subtitle tab__label">{tab.label}</span>
           </div>
         ))}
       </div>

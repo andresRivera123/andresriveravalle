@@ -4,6 +4,7 @@ import gitIcon from "../images/github.svg";
 import linkedinIcon from "../images/linkedin.svg";
 import instagramIcon from "../images/instagram.svg";
 import rightIcon from "../images/cater-right.svg";
+import { toolsDetails } from "../utils/toolsDetails";
 
 export default function About() {
   return (
@@ -37,7 +38,7 @@ export default function About() {
             <p className="text text__mb">
               🐱‍💻 Greetings, everyone calls me Andy I'm a
               <strong> software engineer </strong>
-              passionate about <strong> frontend development </strong>.
+              passionate about <strong> frontend development.</strong>
             </p>
             <p className="text text__mb">
               I enjoy observing how people interact with my applications,
@@ -62,6 +63,23 @@ export default function About() {
             View full resume
             <img src={rightIcon} alt="View full resume link" />
           </a>
+        </div>
+      </div>
+      <div className="about__toolbox">
+        <div className="toolbox__texts">
+          <h2 className="title">Toolbox</h2>
+          <p className="text">
+            The skills, tools, and technologies I use to bring your ideas to
+            life.
+          </p>
+        </div>
+        <div className="tools__container">
+          {toolsDetails.map((tool, index) => (
+            <div className="tool" key={index}>
+              <img src={tool.image} className="" alt={`${tool.name} image`} />
+              <p className="text">{tool.name}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
