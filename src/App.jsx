@@ -10,7 +10,7 @@ function App() {
         <div className="header__container">
           <img src={imageLogo} alt="Image logo" className="header__logo" />
           <div className="header__title">
-            <h1 className="title__name">Andres Rivera Valle</h1>
+            <h1 className="title__name">Andrés Rivera Valle</h1>
             <h2 className="title text__interactive">
               Software Engineer, frontend developer, UX/UI designer
             </h2>

@@ -13,6 +13,10 @@
 
 .who__image {
   max-width: 250px;
+  object-fit: cover;
+  border-radius: 1.5rem;
+  max-width: 100%;
+  height: auto;
 }
 
 .who__icons {
@@ -40,10 +44,10 @@
   padding-top: 3.2rem;
 }
 
-.toolbox__texts{
-    display: flex;
-    flex-direction: column;
-    gap: 1.6rem;
+.toolbox__texts {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
 }
 
 .tools__container {
@@ -64,7 +68,7 @@
 
   .tools__container {
     max-width: 100%;
-    margin: 0 ;
+    margin: 0;
     gap: 1.6rem;
   }
 }

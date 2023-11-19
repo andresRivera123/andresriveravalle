@@ -17,7 +17,7 @@ const Tabs = ({ tabs }) => {
             className={`tab ${index === activeTab ? "active" : ""}`}
             onClick={() => handleTabClick(index)}
           >
-            <img src={tab.icon} alt={tab.label} className="tab-icon" />
+            <img src={tab.icon} alt={tab.label} className="tab-icon" width="24" height="24"/>
             <span className="subtitle tab__label">{tab.label}</span>
           </div>
         ))}

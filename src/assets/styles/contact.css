@@ -1,0 +1,65 @@
+.contact__container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 16px;
+}
+
+.input__label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+}
+
+.input__label label {
+  padding: 1.6rem;
+}
+
+.input__label input {
+  width: 100%;
+  height: 32px;
+}
+
+.input__label textarea {
+  width: 100%;
+  height: 96px;
+}
+
+.button__submit {
+  background-color: var(--text-color);
+  border-radius: 0.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sw__title{
+    font-family: SFpro-Title, sans-serif;
+    font-size: 2.4rem;
+    color: var(--title-color);
+}
+
+
+@media (max-width: 600px) {
+  .input__label {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .input__label label {
+    padding: 0.8rem;
+  }
+
+  .input__label input {
+    width: 100%;
+    height: 32px;
+  }
+}

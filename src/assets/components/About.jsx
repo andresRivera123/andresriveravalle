@@ -1,5 +1,5 @@
 import "../styles/about.css";
-import meImage from "../images/me.png";
+import meImage from "../images/me.jpg";
 import gitIcon from "../images/github.svg";
 import linkedinIcon from "../images/linkedin.svg";
 import instagramIcon from "../images/instagram.svg";
@@ -22,12 +22,12 @@ export default function About() {
       <div className="about__who">
         <div className="who__images">
           <div className="image">
-            <img src={meImage} alt="who is Andy?" className="who__image" />
+            <img src={meImage} alt="who is Andy?" className="who__image" width="225" height="240"/>
           </div>
           <footer className="who__icons">
             {listIcons.map((icon) => (
               <a href="https://github.com/andresRivera123" target="_blank">
-                <img src={icon.image} alt={icon.name} />
+                <img src={icon.image} alt={icon.name} width="37" height="37" />
               </a>
             ))}
           </footer>
@@ -65,7 +65,12 @@ export default function About() {
             className="text who__link text__interactive"
           >
             View full resume
-            <img src={rightIcon} alt="View full resume link" />
+            <img
+              src={rightIcon}
+              alt="View full resume link"
+              width="17"
+              height="20"
+            />
           </a>
         </div>
       </div>
@@ -80,7 +85,13 @@ export default function About() {
         <div className="tools__container">
           {toolsDetails.map((tool, index) => (
             <div className="tool" key={index}>
-              <img src={tool.image} className="" alt={`${tool.name} image`} />
+              <img
+                src={tool.image}
+                className=""
+                alt={`${tool.name} image`}
+                width="48"
+                height="48"
+              />
               <p className="text">{tool.name}</p>
             </div>
           ))}

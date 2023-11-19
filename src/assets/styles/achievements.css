@@ -1,0 +1,11 @@
+.working{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.working__text{
+    rotate: -20deg;
+}
