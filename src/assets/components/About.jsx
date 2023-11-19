@@ -4,9 +4,18 @@ import gitIcon from "../images/github.svg";
 import linkedinIcon from "../images/linkedin.svg";
 import instagramIcon from "../images/instagram.svg";
 import rightIcon from "../images/cater-right.svg";
+import archivePDF from "../../../CV.pdf";
 import { toolsDetails } from "../utils/toolsDetails";
 
 export default function About() {
+  const listIcons = [
+    {
+      name: "Github icon",
+      image: gitIcon,
+    },
+    { name: "LinkedIn icon", image: linkedinIcon },
+    { name: "Instagram icon", image: instagramIcon },
+  ];
   return (
     <section className="about">
       <h2 className="title">Who is Andres?</h2>
@@ -16,21 +25,11 @@ export default function About() {
             <img src={meImage} alt="who is Andy?" className="who__image" />
           </div>
           <footer className="who__icons">
-            <a href="https://github.com/andresRivera123" target="_blank">
-              <img src={gitIcon} alt="Github icon" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/carlos-andres-rivera-valle/"
-              target="_blank"
-            >
-              <img src={linkedinIcon} alt="LinkedIn icon" />
-            </a>
-            <a
-              href="https://instagram.com/andyyatusaaa?igshid=MTNiYzNiMzkwZA=="
-              target="_blank"
-            >
-              <img src={instagramIcon} alt="Instragram icon" />
-            </a>
+            {listIcons.map((icon) => (
+              <a href="https://github.com/andresRivera123" target="_blank">
+                <img src={icon.image} alt={icon.name} />
+              </a>
+            ))}
           </footer>
         </div>
         <div className="who__texts">
@@ -45,8 +44,9 @@ export default function About() {
               understanding their challenges, and receiving recommendations.
             </p>
             <p className="text text__mb">
-              I enjoy crafting <strong> responsive websites </strong> that
-              function seamlessly on all devices for a smooth user experience.
+              I enjoy creating <strong> responsive websites </strong>with
+              excellent accessibility, performance, and SEO, ensuring
+              optimization across devices and quality for each user.
             </p>
             <p className="text text__mb">
               Integrating <strong> Design Thinking </strong> into my development
@@ -59,7 +59,11 @@ export default function About() {
               crafting <strong> 2D video games </strong> as a hobby.
             </p>
           </div>
-          <a href="" className="text who__link text__interactive">
+          <a
+            href={archivePDF}
+            target="_blank"
+            className="text who__link text__interactive"
+          >
             View full resume
             <img src={rightIcon} alt="View full resume link" />
           </a>

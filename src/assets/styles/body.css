@@ -29,6 +29,7 @@
 .header__logo {
   width: 16rem;
   display: block;
+  border-radius: 1000px;
 }
 
 /* MAIN */

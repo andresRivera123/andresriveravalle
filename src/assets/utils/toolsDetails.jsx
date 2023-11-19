@@ -1,13 +1,13 @@
-import htmlImage from "../images/toolbox/html.png"
-import cssImage from "../images/toolbox/css.png"
-import jsImage from "../images/toolbox/js.png"
-import reactImage from "../images/toolbox/react.png"
-import figmaImage from "../images/toolbox/figma.png"
-import gitImage from "../images/toolbox/git.png"
-import materialImage from "../images/toolbox/material.png"
-import tailwindImage from "../images/toolbox/tailwind.png"
-import bootstrapImage from "../images/toolbox/bootstrap.png"
-import unityImage from "../images/toolbox/unity.png"
+import htmlImage from "../images/toolbox/html.svg"
+import cssImage from "../images/toolbox/css.svg"
+import jsImage from "../images/toolbox/js.svg"
+import reactImage from "../images/toolbox/react.svg"
+import figmaImage from "../images/toolbox/figma.svg"
+import gitImage from "../images/toolbox/git.svg"
+import materialImage from "../images/toolbox/material.svg"
+import tailwindImage from "../images/toolbox/tailwind.svg"
+import bootstrapImage from "../images/toolbox/bootstrap.svg"
+import unityImage from "../images/toolbox/unity.svg"
 
 export const toolsDetails = [
   {

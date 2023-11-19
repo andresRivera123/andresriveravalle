@@ -1,6 +1,6 @@
 import "./App.css";
 import Tabs from "./assets/components/Tabs";
-import imageLogo from "./assets/images/LogoImage.png";
+import imageLogo from "./assets/images/logo.jpg";
 import "./assets/styles/body.css";
 import { tabs } from "./assets/utils/tabsDetails";
 function App() {

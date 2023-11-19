@@ -1,4 +1,4 @@
-import gissImage from "../images/projects/gisscleaningservices.png";
+import gissImage from "../images/projects/giss.jpg";
 import alibabaImage from "../images/projects/alibaba.png";
 import colorfulImage from "../images/projects/colofulrunning.png";
 
@@ -7,7 +7,7 @@ export const projectsDetails = [
     name: "Giss Cleaning Services",
     description:
       "Design and development of a website to promote GISS cleaning services in New Jersey, USA",
-    tags: ["ReactJS", "HTML", "CSS"],
+    tags: ["ReactJS", "HTML", "CSS", "MaterialUI"],
     type: "Web",
     image: gissImage,
   },

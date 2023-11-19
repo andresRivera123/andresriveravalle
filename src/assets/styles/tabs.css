@@ -9,10 +9,11 @@
 
 .tab {
   display: flex;
+  cursor: pointer;
   gap: 1.6rem;
   padding: 1.6rem;
   --c: #80574e; /* the color */
-  --b: 0.2em; /* border length*/
+  --b: 0.3em; /* border length*/
   --d: 15px; /* the cube depth */
   --_s: calc(var(--d) + var(--b));
   color: var(--c);
@@ -95,7 +96,17 @@
 
   .tab{
     padding: 1.1rem;
+    --b: 0.3em; /* border length*/
+    --d: 10px; /* the cube depth */
+  }
+}
+
+
+@media (max-width: 300px) {
+  .tab{
+    padding: 1.1rem;
     --b: 0.2em; /* border length*/
     --d: 5px; /* the cube depth */
   }
 }
+
