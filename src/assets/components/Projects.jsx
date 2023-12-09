@@ -11,7 +11,6 @@ export default function Projects() {
             src={project.image}
             className="project__image-img"
             alt={`${project.name} image`}
-
           />
 
           <div className="project__details">
