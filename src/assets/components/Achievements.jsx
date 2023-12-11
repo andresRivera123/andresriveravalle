@@ -18,7 +18,7 @@ export default function Achievements() {
               <img className="content__icon" src={uxIcon} alt="UX/UI Icon" />
               <p
                 className="timeline__text text"
-                style={{ color: "#888888" }}
+                style={{ color: "#666666" }}
               >{`(2023)`}</p>
             </div>
             <h3 className="timeline__text text">UX/UI designer</h3>
@@ -40,7 +40,7 @@ export default function Achievements() {
               <img className="content__icon" src={codeIcon} alt="Code Icon" />
               <p
                 className="timeline__text text"
-                style={{ color: "#888888" }}
+                style={{ color: "#666666" }}
               >{`(2023)`}</p>
             </div>
             <h3 className="timeline__text text">
@@ -67,7 +67,7 @@ export default function Achievements() {
               <img className="content__icon" src={gameIcon} alt="UX/UI Icon" />
               <p
                 className="timeline__text text"
-                style={{ color: "#888888" }}
+                style={{ color: "#666666" }}
               >{`(2023)`}</p>
             </div>
             <h3 className="timeline__text text">
@@ -80,7 +80,7 @@ export default function Achievements() {
               <img className="content__icon" src={gameIcon} alt="Code Icon" />
               <p
                 className="timeline__text text"
-                style={{ color: "#888888" }}
+                style={{ color: "#666666" }}
               >{`(2022)`}</p>
             </div>
             <h3 className="timeline__text text">

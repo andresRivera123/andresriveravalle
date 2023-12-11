@@ -1,21 +1,12 @@
 import "../styles/about.css";
 import meImage from "../images/me.jpg";
-import gitIcon from "../images/github.svg";
-import linkedinIcon from "../images/linkedin.svg";
-import instagramIcon from "../images/instagram.svg";
 import rightIcon from "../images/cater-right.svg";
 import archivePDF from "../../../CV.pdf";
 import { toolsDetails } from "../utils/toolsDetails";
+import { listIcons } from "../utils/listIconSocial";
 
 export default function About() {
-  const listIcons = [
-    {
-      name: "Github icon",
-      image: gitIcon,
-    },
-    { name: "LinkedIn icon", image: linkedinIcon },
-    { name: "Instagram icon", image: instagramIcon },
-  ];
+
 
   return (
     <section className="about">
@@ -33,8 +24,14 @@ export default function About() {
           </div>
           <footer className="who__icons">
             {listIcons.map((icon) => (
-              <a href="https://github.com/andresRivera123" target="_blank">
-                <img className="who__icon" src={icon.image} alt={icon.name} width="37" height="37" />
+              <a href={icon.url} target="_blank">
+                <img
+                  className="who__icon"
+                  src={icon.image}
+                  alt={icon.name}
+                  width="37"
+                  height="37"
+                />
               </a>
             ))}
           </footer>
