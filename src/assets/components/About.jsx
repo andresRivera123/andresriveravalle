@@ -16,18 +16,25 @@ export default function About() {
     { name: "LinkedIn icon", image: linkedinIcon },
     { name: "Instagram icon", image: instagramIcon },
   ];
+
   return (
     <section className="about">
       <h2 className="title">Who is Andres?</h2>
       <div className="about__who">
         <div className="who__images">
           <div className="image">
-            <img src={meImage} alt="who is Andy?" className="who__image" width="225" height="240"/>
+            <img
+              src={meImage}
+              alt="who is Andy?"
+              className="who__image"
+              width="225"
+              height="240"
+            />
           </div>
           <footer className="who__icons">
             {listIcons.map((icon) => (
               <a href="https://github.com/andresRivera123" target="_blank">
-                <img src={icon.image} alt={icon.name} width="37" height="37" />
+                <img className="who__icon" src={icon.image} alt={icon.name} width="37" height="37" />
               </a>
             ))}
           </footer>

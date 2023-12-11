@@ -15,7 +15,6 @@ export default function Projects() {
 
           <div className="project__details">
             <h2 className="subtitle">{project.name}</h2>
-            <p className="text">{project.description}</p>
             <div className="project__tags">
               {project.tags.map((tag, tagIndex) => (
                 <p key={tagIndex} className="text tag">
@@ -23,6 +22,7 @@ export default function Projects() {
                 </p>
               ))}
             </div>
+            <p className="text">{project.description}</p>
           </div>
         </div>
       ))}

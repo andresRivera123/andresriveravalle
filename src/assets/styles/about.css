@@ -25,6 +25,12 @@
   gap: 2.4rem;
 }
 
+.who__icon {
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
 .who__texts {
   display: flex;
   flex-direction: column;
