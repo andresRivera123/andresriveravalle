@@ -13,6 +13,7 @@ export default function TimelineAchievements() {
   return (
     <Timeline
       position="right"
+      sx={{m: 0, p: 0}}
     >
       {achievementsDetails.map((achievement) => (
         <TimelineItem>

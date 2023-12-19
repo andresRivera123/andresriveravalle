@@ -8,7 +8,7 @@ export const projectsDetails = [
     description:
       "Design and development of a website to promote GISS cleaning services in New Jersey, USA",
     tags: ["ReactJS", "HTML", "CSS", "MaterialUI"],
-    type: "Web",
+    category: "Web",
     image: gissImage,
   },
   {
@@ -16,7 +16,7 @@ export const projectsDetails = [
     description:
       "2D pixelart style platform game, Help alibaba to get his gems, beware of enemies in the dunes and obstacles.",
     tags: ["Unity"],
-    type: "Videogames",
+    category: "Videogames",
     image: alibabaImage,
   },
   {
@@ -24,7 +24,7 @@ export const projectsDetails = [
     description:
       "2D pixelart style speed runner game. Don't touch the dull spheres, you need color!",
     tags: ["Unity"],
-    type: "Videogames",
+    category: "Videogames",
     image: colorfulImage,
   },
 ];

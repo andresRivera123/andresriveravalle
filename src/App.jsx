@@ -22,7 +22,7 @@ function App() {
         </div>
       </header>
       <main className="main">
-        <Tabs tabs={tabs} />
+        <Tabs tabs={tabs}/>
       </main>
     </div>
   );

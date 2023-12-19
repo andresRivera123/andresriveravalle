@@ -1,7 +1,7 @@
 .about__who {
   display: flex;
   flex-direction: row;
-  padding-top: 2.4rem;
+  padding-top: 3.2rem;
   gap: 2.4rem;
 }
 
