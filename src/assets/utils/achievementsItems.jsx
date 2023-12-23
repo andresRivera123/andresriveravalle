@@ -1,6 +1,7 @@
 import ViewQuiltIcon from '@mui/icons-material/ViewQuilt';
 import CodeIcon from '@mui/icons-material/Code';
 import VideogameAssetIcon from '@mui/icons-material/VideogameAsset';
+import tituloPDF from "../../../Titulo.pdf"
 
 export const achievementsDetails = [
   {
@@ -16,7 +17,7 @@ export const achievementsDetails = [
     title: "Graduated in software engineering",
     description:
       "I learned the structures, tools, techniques and phases to build applications.",
-    link: "",
+    link: tituloPDF,
     icon: <CodeIcon fontSize="large"/>,
   },
   {

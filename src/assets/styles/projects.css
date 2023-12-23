@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 
-.projects__section{
+.projects__section {
   padding-top: 3.2rem;
 }
 
@@ -13,7 +13,9 @@
 
 .category {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -32,7 +34,7 @@
   }
 }
 
-.project__list{
+.project__list {
   margin-top: 1.6rem;
 }
 
@@ -58,8 +60,8 @@
 }
 
 .tag {
-  background-color: var(--text-color);
-  color: var(--white-color);
+  background-color: var(--white-color);
+  color: var(--text-color);
   font-size: 1.4rem;
   border-radius: 0.8rem;
   padding: 0.4rem 1rem;

@@ -1,5 +1,5 @@
 import "../styles/about.css";
-import meImage from "../images/me.jpg";
+import meImage from "../images/me.webp";
 import rightIcon from "../images/cater-right.svg";
 import archivePDF from "../../../CV.pdf";
 import { toolsDetails } from "../utils/toolsDetails";

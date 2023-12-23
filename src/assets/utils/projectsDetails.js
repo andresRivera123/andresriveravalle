@@ -1,8 +1,16 @@
-import gissImage from "../images/projects/giss.jpg";
-import alibabaImage from "../images/projects/alibaba.png";
-import colorfulImage from "../images/projects/colofulrunning.png";
+import gissImage from "../images/projects/giss.webp";
+import alibabaImage from "../images/projects/alibaba.webp";
+import colorfulImage from "../images/projects/colofulrunning.webp";
+import plantShopImage from "../images/projects/plantShop.webp"
 
 export const projectsDetails = [
+  {
+    name: "Plant Shop",
+    description: "E-commerce development focused on the sale of plants where you add, delete, empty and buy the plants cart",
+    tags: ["HTML", "CSS", "Javascript", "Bootstrap"],
+    category: "Web",
+    image: plantShopImage,
+  },
   {
     name: "Giss Cleaning Services",
     description:
