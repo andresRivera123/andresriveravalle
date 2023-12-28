@@ -3,7 +3,7 @@
   margin-right: auto;
   min-height: 100vh;
   max-width: 1024px;
-  padding: 5.6rem 5.6rem 0 5.6rem;
+  padding: 2.4rem 5.6rem 2.4rem 5.6rem;
 }
 
 /* HEADER */
@@ -41,7 +41,7 @@
 
 @media (max-width: 1200px) {
   .body__container {
-    padding: 3.2rem 3.2rem;
+    padding: 3.2rem
   }
 
   .header__logo {
@@ -56,7 +56,7 @@
 
 @media (max-width: 600px) {
   .body__container {
-    padding: 4rem 1.6rem;
+    padding: 2.4rem;
   }
 
   /* HEADER */

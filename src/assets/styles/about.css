@@ -12,7 +12,7 @@
 }
 
 .who__image {
-  max-width: 250px;
+  max-width: 280px;
   object-fit: cover;
   border-radius: 1.5rem;
   max-width: 100%;
@@ -77,4 +77,14 @@
     margin: 0;
     gap: 1.6rem;
   }
+
+  .who__image {
+    width: 240px;
+    max-width: 240px;
+    object-fit: cover;
+    border-radius: 1.5rem;
+    max-width: 100%;
+    height: auto;
+  }
+  
 }
