@@ -18,12 +18,12 @@ function App() {
       {loading ? (
         <div className="pacman__container">
           <PacmanLoader
-          color={"#80574e"}
-          loading={loading}
-          size={80}
-          aria-label="Loading Spinner"
-          data-testid="loader"
-        />
+            color={"#80574e"}
+            loading={loading}
+            size={80}
+            aria-label="Loading Spinner"
+            data-testid="loader"
+          />
         </div>
       ) : (
         <div>

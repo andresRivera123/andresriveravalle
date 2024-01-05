@@ -14,6 +14,8 @@
 }
 
 .header__container {
+  width: 100%;
+  max-width: 80%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -34,9 +36,8 @@
 
 /* MAIN */
 
-.main{
+.main {
   padding-top: 4.8rem;
-
 }
 
 @media (max-width: 1200px) {
@@ -49,8 +50,14 @@
     display: block;
   }
 
-  .main{
+  .main {
     padding-top: 3.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__container {
+    max-width: 100%;
   }
 }
 
@@ -84,7 +91,7 @@
 
   /* MAIN */
 
-  .main{
+  .main {
     padding-top: 2.4rem;
   }
 }
