@@ -10,7 +10,7 @@ export default function About() {
 
   return (
     <section className="about">
-      <h2 className="title">Who is Andres?</h2>
+      <h2 className="title">Who is Andrés?</h2>
       <div className="about__who">
         <div className="who__images">
           <div className="image">
@@ -18,7 +18,7 @@ export default function About() {
               src={meImage}
               alt="who is Andy?"
               className="who__image"
-              width="225"
+              width="400"
               height="240"
             />
           </div>
