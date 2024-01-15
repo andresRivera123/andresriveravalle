@@ -42,7 +42,7 @@
 
 @media (max-width: 1200px) {
   .body__container {
-    padding: 3.2rem
+    padding: 3.2rem;
   }
 
   .header__logo {
@@ -51,7 +51,8 @@
   }
 
   .main {
-    padding-top: 3.2rem;
+    padding-top: 8rem;
+    text-align: center;
   }
 }
 

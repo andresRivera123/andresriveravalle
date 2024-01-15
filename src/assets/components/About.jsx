@@ -9,7 +9,7 @@ export default function About() {
 
 
   return (
-    <section className="about">
+    <section className="about ">
       <h2 className="title">Who is Andrés?</h2>
       <div className="about__who">
         <div className="who__images">

@@ -5,14 +5,18 @@ import imageLogo from "./assets/images/logo.jpg";
 import "./assets/styles/body.css";
 import { tabs } from "./assets/utils/tabsDetails";
 import { PacmanLoader } from "react-spinners";
+import About from "./assets/components/About";
+import Projects from "./assets/components/Projects";
+import Achievements from "./assets/components/Achievements";
+import Contact from "./assets/components/Contact";
 function App() {
-  const [loading, setLoading] = useState(false);
+/*   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 3000);
-  }, []);
+  }, []); */
   return (
     <div className="body__container">
       {/* {loading ? (
@@ -46,7 +50,10 @@ function App() {
           </div>
         </header>
         <main className="main">
-          <Tabs tabs={tabs} />
+          <About/>
+          <Projects/>
+          <Achievements/>
+          <Contact/>
         </main>
       </div>
     </div>

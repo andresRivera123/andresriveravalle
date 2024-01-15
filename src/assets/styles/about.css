@@ -1,8 +1,13 @@
+.about{
+  text-align: center;
+}
+
 .about__who {
   display: flex;
   flex-direction: row;
   padding-top: 3.2rem;
   gap: 2.4rem;
+
 }
 
 .who__images {
@@ -47,7 +52,7 @@
 .about__toolbox {
   display: flex;
   flex-direction: column;
-  padding-top: 3.2rem;
+  padding-top: 8rem;
 }
 
 .toolbox__texts {
