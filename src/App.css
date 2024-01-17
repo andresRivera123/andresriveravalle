@@ -23,6 +23,10 @@
   font-display: sans-serif, Arial;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: linear-gradient(45deg, #e9dfc3 20%, transparent 20%),
     linear-gradient(135deg, transparent 80%, #e9dfc3 80%),
@@ -83,6 +87,7 @@ body {
   width: 100%;
   height: 100vh;
 }
+
 
 @media (max-width: 1200px) {
   .title__name {

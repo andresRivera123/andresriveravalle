@@ -37,7 +37,7 @@
 /* MAIN */
 
 .main {
-  padding-top: 4.8rem;
+  padding-top: 20rem;
 }
 
 @media (max-width: 1200px) {
@@ -48,11 +48,6 @@
   .header__logo {
     width: 14rem;
     display: block;
-  }
-
-  .main {
-    padding-top: 8rem;
-    text-align: center;
   }
 }
 

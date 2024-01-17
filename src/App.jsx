@@ -9,8 +9,9 @@ import About from "./assets/components/About";
 import Projects from "./assets/components/Projects";
 import Achievements from "./assets/components/Achievements";
 import Contact from "./assets/components/Contact";
+import { Navbar } from "./assets/components/Navbar";
 function App() {
-/*   const [loading, setLoading] = useState(false);
+  /*   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
@@ -33,8 +34,7 @@ function App() {
         
         
       )} */}
-      <div>
-        <header className="header">
+      {/* <header className="header">
           <div className="header__container">
             <img src={imageLogo} alt="Image logo" className="header__logo" />
             <div className="header__title">
@@ -48,12 +48,23 @@ function App() {
               </p>
             </div>
           </div>
-        </header>
+        </header> */}
+      <div>
+
+          <Navbar />
+
+
         <main className="main">
-          <About/>
-          <Projects/>
-          <Achievements/>
-          <Contact/>
+          <section id="about" className="">
+            <h2 id="about" className="title">
+              Who is Andrés?
+            </h2>
+            <About />
+          </section>
+
+          <Projects />
+          <Achievements />
+          <Contact />
         </main>
       </div>
     </div>
