@@ -6,92 +6,18 @@
   padding: 2.4rem 5.6rem 2.4rem 5.6rem;
 }
 
-/* HEADER */
-
-.header {
-  display: flex;
-  flex-direction: column;
-}
-
-.header__container {
-  width: 100%;
-  max-width: 80%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 3.2rem;
-}
-
-.header__title {
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-}
-
-.header__logo {
-  width: 16rem;
-  display: block;
-  border-radius: 1000px;
-}
-
-/* MAIN */
-
 .main {
-  padding-top: 4.8rem;
+  padding-top: 1.6rem;
 }
 
 @media (max-width: 1200px) {
   .body__container {
-    padding: 3.2rem
-  }
-
-  .header__logo {
-    width: 14rem;
-    display: block;
-  }
-
-  .main {
-    padding-top: 3.2rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .header__container {
-    max-width: 100%;
+    padding: 3.2rem;
   }
 }
 
 @media (max-width: 600px) {
   .body__container {
     padding: 2.4rem;
-  }
-
-  /* HEADER */
-
-  .header {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .header__container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1.6rem;
-  }
-
-  .header__title {
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
-  }
-  .header__logo {
-    display: none;
-  }
-
-  /* MAIN */
-
-  .main {
-    padding-top: 2.4rem;
   }
 }

@@ -41,14 +41,24 @@
 .project__container {
   padding-top: 2.4rem;
   padding-bottom: 2.4rem;
-  display: flex;
-  flex-direction: row;
-  gap: 2.4rem;
-  text-align: center;
+
+}
+
+.project__title {
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 2.4rem;
+  margin: 0;
+  color: var(--interactive-color);
 }
 
 .project__details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  text-align: center;
   text-align: start;
+  max-width: 800px;
 }
 
 .project__tags {
@@ -69,7 +79,7 @@
 
 .project__image-img {
   border-radius: 1.5rem;
-  width: 400px;
+  max-width: 800px;
 }
 
 @media (max-width: 768px) {

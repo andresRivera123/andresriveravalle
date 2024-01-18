@@ -10,23 +10,28 @@ import About from "../components/About";
 
 export const tabs = [
   {
+    label: "Experience",
+    content: <Achievements/>,
+    icon: achievementsIcon,
+    href: "#achievements"
+  },
+  {
     label: "About me",
     content: <About/>,
     icon: aboutIcon,
+    href: "#about"
   },
   {
     label: "Projects",
     content: <Projects/>,
     icon: projectsIcon,
+    href: "#projects"
   },
-  {
-    label: "Achievements",
-    content: <Achievements/>,
-    icon: achievementsIcon,
-  },
+
   {
     label: "Contact",
     content: <Contact/>,
     icon: contactIcon,
+    href: "#contact"
   },
 ];

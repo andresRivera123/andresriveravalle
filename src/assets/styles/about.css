@@ -3,12 +3,14 @@
   flex-direction: row;
   padding-top: 3.2rem;
   gap: 2.4rem;
+
 }
 
 .who__images {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+  margin: 0 auto;
 }
 
 .who__image {
@@ -17,18 +19,6 @@
   border-radius: 1.5rem;
   max-width: 100%;
   height: auto;
-}
-
-.who__icons {
-  display: flex;
-  justify-content: center;
-  gap: 2.4rem;
-}
-
-.who__icon {
-  &:hover {
-    transform: scale(1.2);
-  }
 }
 
 .who__texts {
@@ -61,8 +51,13 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 2.4rem;
+  justify-content: center;
   max-width: 80%;
   margin: 0 auto;
+}
+
+.tool{
+  text-align: center;
 }
 
 @media (max-width: 700px) {
@@ -86,5 +81,4 @@
     max-width: 100%;
     height: auto;
   }
-  
 }

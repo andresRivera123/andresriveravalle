@@ -74,8 +74,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="Contact">
-      <h2 className="title">Contact</h2>
+    <>
       <div className="contact__container">
         <form className="contact__form" ref={form} onSubmit={sendEmail}>
           <div className="input__label">
@@ -115,6 +114,6 @@ export default function Contact() {
           />
         </form>
       </div>
-    </section>
+    </>
   );
 }

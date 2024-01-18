@@ -23,27 +23,23 @@
   font-display: sans-serif, Arial;
 }
 
-/* Texts */
-.title__name {
+html {
   font-family: SFpro-Title, sans-serif;
-  letter-spacing: 2px;
-  font-weight: bold;
-  font-size: 4.8rem;
-  margin: 0;
-  color: var(--title-color);
+  scroll-behavior: smooth;
 }
 
+/* Texts */
+
 .title {
-  font-family: SFpro-Title, sans-serif;
   letter-spacing: 1px;
   font-weight: bold;
-  font-size: 2.4rem;
+  font-size: 3.2rem;
   margin: 0;
   color: var(--title-color);
 }
 
 .subtitle {
-  font-family: SFpro-Title, sans-serif;
+
   letter-spacing: 1px;
   font-weight: bold;
   font-size: 2rem;
@@ -52,7 +48,7 @@
 }
 
 .text {
-  font-family: SFpro, sans-serif;
+
   font-size: 1.8rem;
   margin: 0;
   color: var(--text-color);
@@ -66,29 +62,15 @@
   color: var(--interactive-color);
 }
 
-.pacman__container{ 
+.container__section {
+  padding-top: 14rem;
+}
+
+.pacman__container {
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
-}
-
-@media (max-width: 1200px) {
-  .title__name {
-    font-size: 4rem;
-  }
-
-  .title {
-    font-size: 2rem;
-  }
-
-  .text {
-    font-size: 1.6rem;
-  }
-
-  .text__interactive {
-    color: var(--interactive-color);
-  }
 }
