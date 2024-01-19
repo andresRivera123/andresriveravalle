@@ -7,7 +7,6 @@ import { PacmanLoader } from "react-spinners";
 import About from "./assets/components/About";
 import Projects from "./assets/components/Projects";
 import Achievements from "./assets/components/Achievements";
-import Contact from "./assets/components/Contact";
 import { Toolbox } from "./assets/components/Toolbox";
 import { Hero } from "./assets/components/hero";
 
@@ -41,7 +40,7 @@ function App() {
         <>
           <header className="header">
             <div className="tabs">
-              <div className="tabs__container">
+              <div className="tabs__container ">
                 {tabs.map((tab, index) => (
                   <a
                     key={index}
@@ -68,6 +67,10 @@ function App() {
             <section className="hero__container">
               <Hero />
             </section>
+            <section id="achievements" className="container__section">
+              <h2 className="title">Experience</h2>
+              <Achievements />
+            </section>
             <section id="about" className="container__section">
               <h2 className="title">Who is Andrés?</h2>
               <About />
@@ -80,14 +83,7 @@ function App() {
               <h2 className="title">Projects</h2>
               <Projects />
             </section>
-            <section id="achievements" className="container__section">
-              <h2 className="title">Achievements</h2>
-              <Achievements />
-            </section>
-            <section id="contact" className="container__section">
-              <h2 className="title">Contact</h2>
-              <Contact />
-            </section>
+
           </main>
         </>
       )}

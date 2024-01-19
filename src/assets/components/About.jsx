@@ -3,7 +3,6 @@ import meImage from "../images/me.webp";
 import rightIcon from "../images/cater-right.svg";
 import archivePDF from "../../../CV.pdf";
 import { toolsDetails } from "../utils/toolsDetails";
-import { listIcons } from "../utils/listIconSocial";
 import "../logic/scrollNav";
 export default function About() {
   return (

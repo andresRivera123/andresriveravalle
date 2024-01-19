@@ -1,9 +1,9 @@
 :root {
   /* COLORS */
   --background-color: #f5eacc;
-  --title-color: #222222;
-  --text-color: #333333;
+  --text-color: #111111;
   --interactive-color: #80574e;
+  --green-color: #356463;
   --gray-color: #555555;
   --gray-light-color: #cdcdcd;
   --white-color: #ffffff;
@@ -35,7 +35,7 @@ html {
   font-weight: bold;
   font-size: 3.2rem;
   margin: 0;
-  color: var(--title-color);
+  color: var(--text-color);
 }
 
 .subtitle {
@@ -44,7 +44,7 @@ html {
   font-weight: bold;
   font-size: 2rem;
   margin: 0;
-  color: var(--title-color);
+  color: var(--text-color);
 }
 
 .text {
