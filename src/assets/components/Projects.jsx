@@ -10,20 +10,23 @@ export default function Projects() {
             <div className="project__details">
               <h2 className="project__title">{project.name}</h2>
 
-              <p className="text">{project.description}</p>
+              <p className="project__text">{project.description}</p>
               <div className="project__tags">
                 {project.tags.map((tag, tagIndex) => (
-                  <p key={tagIndex} className="text tag">
-                    {tag}
-                  </p>
+                  <div key={tagIndex}>
+
+                    <p  className="text tag">
+                      {tag}
+                    </p>
+                  </div>
                 ))}
               </div>
+              <img
+                src={project.image}
+                className="project__image-img"
+                alt={`${project.name} image`}
+              />
             </div>
-            <img
-              src={project.image}
-              className="project__image-img"
-              alt={`${project.name} image`}
-            />
           </div>
         ))}
       </div>

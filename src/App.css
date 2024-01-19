@@ -6,7 +6,7 @@
   --interactive-color: #754d45;
   --green-color: #356463;
   --blue-color: #3185a3;
-  --gray-color: #444444;
+  --gray-color: #666666;
   --gray-light-color: #cdcdcd;
   --white-color: #ffffff;
 }
@@ -49,7 +49,7 @@ html {
 }
 
 .text {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin: 0;
   color: var(--text-color);
 }

@@ -1,8 +1,6 @@
 import "../styles/about.css";
-import meImage from "../images/me.webp";
-import rightIcon from "../images/cater-right.svg";
+import meImage from "../images/me-circle.svg";
 import archivePDF from "../../../CV.pdf";
-import { toolsDetails } from "../utils/toolsDetails";
 import "../logic/scrollNav";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 export default function About() {
@@ -20,30 +18,35 @@ export default function About() {
         </div>
         <div className="who__texts">
           <p className="text text__mb">
-            🐱‍💻 Greetings, everyone calls me Andy I'm a
-            <strong> software engineer </strong>
-            passionate about <strong> frontend development.</strong>
+            🐱‍💻 Greetings, everyone calls me Andy I&#39;m a
+            <span className="who__span"> software engineer </span>
+            passionate about <span className="who__span"> frontend development.</span>
           </p>
           <p className="text text__mb">
             I enjoy observing how people interact with my applications,
             understanding their challenges, and receiving recommendations.
           </p>
           <p className="text text__mb">
-            I enjoy creating <strong> responsive websites </strong>with
+            I enjoy creating <span className="who__span"> responsive websites </span>with
             excellent accessibility, performance, and SEO, ensuring optimization
             across devices and quality for each user.
           </p>
           <p className="text text__mb">
-            Integrating <strong> Design Thinking </strong> into my development
+            Integrating <span className="who__span"> Design Thinking </span > into my development
             process allows me to creatively address problems, prototype ideas,
             and continuously iterate to achieve user-centered and visually
             striking solutions.
           </p>
           <p className="text ">
             Outside of my professional life, I find joy and creativity in
-            crafting <strong> 2D video games </strong> as a hobby.
+            crafting <span className="who__span"> 2D video games </span> as a hobby.
           </p>
-          <a href={archivePDF} target="_blank" className="text who__link">
+          <a
+            href={archivePDF}
+            target="_blank"
+            rel="noreferrer"
+            className="text who__link"
+          >
             View full resume
             <ArrowForwardIcon fontSize="large" />
           </a>

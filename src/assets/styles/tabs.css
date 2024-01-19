@@ -28,7 +28,7 @@
   padding: 1.2rem;
   --c: var(--interactive-color); /* the color */
   --b: 0.3em; /* border length*/
-  --d: 15px; /* the cube depth */
+  --d: 8px; /* the cube depth */
   --_s: calc(var(--d) + var(--b));
   color: var(--c);
   border: solid #0000;
@@ -90,10 +90,7 @@
   text-align: center;
 }
 
-.tab-icon {
-  width: 2.4rem;
-  color: var(--white-color);
-}
+
 
 @media (max-width: 1024px) {
   .tabs__container {
@@ -115,7 +112,7 @@
   .tab {
     padding: 1.1rem;
     --b: 0.3em; /* border length*/
-    --d: 10px; /* the cube depth */
+    --d: 8px; /* the cube depth */
   }
 }
 

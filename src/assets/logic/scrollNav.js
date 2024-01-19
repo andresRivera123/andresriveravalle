@@ -1,7 +1,5 @@
 let sections = document.querySelectorAll(".hero__container");
 let navLinks = document.querySelector(".tab__link");
-console.log(sections);
-console.log(navLinks);
 
 window.onscroll = () => {
   sections.forEach((sec) => {

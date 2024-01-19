@@ -54,26 +54,30 @@
   color: var(--interactive-color);
 }
 
+
+.project__text {
+  font-size: 1.8rem;
+  margin: 0;
+  color: var(--text-color);
+}
+
 .project__details {
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
-  text-align: center;
+  gap: 0.8rem;
   text-align: start;
-  max-width: 800px;
+  max-width: 72rem;
 }
 
 .project__tags {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 0.4rem;
-  padding-bottom: 1.2rem;
   gap: 0.8rem;
 }
 
 .tag {
-  background-color: var(--white-color);
-  color: var(--text-color);
+  background-color: var(--text-color);
+  color: var(--white-color);
   font-size: 1.4rem;
   border-radius: 0.8rem;
   padding: 0.4rem 1rem;
@@ -81,7 +85,7 @@
 
 .project__image-img {
   border-radius: 1.5rem;
-  max-width: 800px;
+  
 }
 
 @media (max-width: 768px) {

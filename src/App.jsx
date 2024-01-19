@@ -9,6 +9,7 @@ import Projects from "./assets/components/Projects";
 import Achievements from "./assets/components/Achievements";
 import { Toolbox } from "./assets/components/Toolbox";
 import { Hero } from "./assets/components/Hero";
+import { Footer } from "./assets/components/Footer";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -25,6 +26,7 @@ function App() {
   };
 
   return (
+    <>
     <div id="contact" className="body__container">
       {loading ? (
         <div className="pacman__container">
@@ -84,9 +86,15 @@ function App() {
               <About />
             </section>
           </main>
+
         </>
       )}
     </div>
+              <footer className="container__section ">
+              <Footer/>
+            </footer>
+            </>
+    
   );
 }
 

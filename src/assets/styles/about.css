@@ -3,7 +3,6 @@
   flex-direction: row;
   padding-top: 3.2rem;
   gap: 2.4rem;
-
 }
 
 .who__images {
@@ -11,6 +10,7 @@
   flex-direction: column;
   gap: 1.6rem;
   margin: 0 auto;
+  order: 2;
 }
 
 .who__image {
@@ -19,6 +19,7 @@
   border-radius: 1.5rem;
   max-width: 100%;
   height: auto;
+
 }
 
 .who__texts {
@@ -33,12 +34,16 @@
   margin-top: 1.2rem;
   margin-left: 2.8rem;
   font-weight: bold;
-
   color: var(--green-color);
   display: flex;
   align-items: center;
   gap: 0.8rem;
   width: 200px;
+}
+
+.who__span {
+  color: var(--blue-color);
+  font-weight: 600;
 }
 
 .about__toolbox {
@@ -54,16 +59,20 @@
 }
 
 .tools__container {
-
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 2.4rem;
-  max-width: 80%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
-.tool{
+.tool {
+
   text-align: center;
+}
+
+.tool img{
+  margin-bottom: 0.8rem;
 }
 
 @media (max-width: 700px) {
@@ -77,6 +86,10 @@
     max-width: 100%;
     margin: 0;
     gap: 1.6rem;
+  }
+
+  .who__images {
+    order: -1;
   }
 
   .who__image {
