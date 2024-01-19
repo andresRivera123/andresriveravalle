@@ -4,6 +4,7 @@ import rightIcon from "../images/cater-right.svg";
 import archivePDF from "../../../CV.pdf";
 import { toolsDetails } from "../utils/toolsDetails";
 import "../logic/scrollNav";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 export default function About() {
   return (
     <>
@@ -42,18 +43,9 @@ export default function About() {
             Outside of my professional life, I find joy and creativity in
             crafting <strong> 2D video games </strong> as a hobby.
           </p>
-          <a
-            href={archivePDF}
-            target="_blank"
-            className="text who__link text__interactive"
-          >
+          <a href={archivePDF} target="_blank" className="text who__link">
             View full resume
-            <img
-              src={rightIcon}
-              alt="View full resume link"
-              width="17"
-              height="20"
-            />
+            <ArrowForwardIcon fontSize="large" />
           </a>
         </div>
       </div>

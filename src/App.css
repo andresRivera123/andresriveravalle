@@ -2,9 +2,11 @@
   /* COLORS */
   --background-color: #f5eacc;
   --text-color: #111111;
-  --interactive-color: #80574e;
+  --light-black-color: #888888;
+  --interactive-color: #754d45;
   --green-color: #356463;
-  --gray-color: #555555;
+  --blue-color: #3185a3;
+  --gray-color: #444444;
   --gray-light-color: #cdcdcd;
   --white-color: #ffffff;
 }
@@ -39,7 +41,6 @@ html {
 }
 
 .subtitle {
-
   letter-spacing: 1px;
   font-weight: bold;
   font-size: 2rem;
@@ -48,7 +49,6 @@ html {
 }
 
 .text {
-
   font-size: 1.8rem;
   margin: 0;
   color: var(--text-color);
@@ -59,11 +59,13 @@ html {
 }
 
 .text__interactive {
+  font-size: 1.8rem;
+  margin: 0;
   color: var(--interactive-color);
 }
 
 .container__section {
-  padding-top: 14rem;
+  padding-top: 10rem;
 }
 
 .pacman__container {
@@ -73,4 +75,16 @@ html {
   align-items: center;
   width: 100%;
   height: 100vh;
+}
+
+@media (max-width: 1024px){
+  .container__section {
+    padding-top: 12rem;
+  }
+}
+
+@media (max-width: 425px){
+  .container__section {
+    padding-top: 10rem;
+  }
 }

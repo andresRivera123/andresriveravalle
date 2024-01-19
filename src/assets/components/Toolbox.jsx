@@ -4,10 +4,6 @@ export const Toolbox = () => {
   return (
     <div className="about__toolbox">
       <div className="toolbox__texts">
-
-        <p className="text">
-          The skills, tools, and technologies I use to bring your ideas to life.
-        </p>
       </div>
       <div className="tools__container">
         {toolsDetails.map((tool, index) => (

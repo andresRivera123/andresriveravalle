@@ -29,9 +29,16 @@
 }
 
 .who__link {
+  font-size: 1.6rem;
+  margin-top: 1.2rem;
+  margin-left: 2.8rem;
+  font-weight: bold;
+
+  color: var(--green-color);
   display: flex;
+  align-items: center;
   gap: 0.8rem;
-  justify-content: end;
+  width: 200px;
 }
 
 .about__toolbox {
@@ -47,11 +54,10 @@
 }
 
 .tools__container {
-  padding-top: 2.4rem;
+
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 2.4rem;
-  justify-content: center;
   max-width: 80%;
   margin: 0 auto;
 }

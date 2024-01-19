@@ -1,7 +1,7 @@
 /* HEADER */
 
 .hero__container {
-  padding-top: 24rem;
+  padding-top: 28rem;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -9,9 +9,14 @@
   gap: 3.2rem;
 }
 
-.hero__logo-out,
-.hero__logo {
+.hero__logo-out {
   width: 16rem;
+  display: block;
+  border-radius: 1000px;
+}
+
+.hero__logo {
+  width: 8rem;
   display: block;
   border-radius: 1000px;
 }
@@ -23,8 +28,10 @@
 .hero__information {
   display: flex;
   flex-direction: column;
+
   gap: 1.6rem;
-  max-width: 100%;
+
+  max-width: 48rem;
 }
 
 .hero__title {
@@ -64,15 +71,26 @@
 }
 
 .icons__item {
+  cursor: pointer;
   &:hover {
     transform: scale(1.2);
   }
 }
 @media (max-width: 768px) {
+  .hero__title {
+    font-size: 4.4rem;
+  }
+
+  .hero__subtitle {
+    font-size: 2.4rem;
+  }
+
+  .hero__text {
+    font-size: 2rem;
+  }
 
   .hero__container {
     padding-top: 16rem;
-
   }
 
   .hero__logo-out {

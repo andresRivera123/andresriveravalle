@@ -16,16 +16,19 @@ export const Hero = () => {
         <img src={imageLogo} alt="Image logo" className="hero__logo" />
         <h1 className="hero__title">Andrés Rivera Valle</h1>
         <h2 className="hero__subtitle">
-          Software Engineer, frontend developer, UX/UI designer
+          Software Engineer{" "}
+          <span style={{ color: "var(--green-color)" }}>
+            Frontend developer
+          </span>
+          <span style={{ color: "var(--blue-color)" }}> UX/UI designer </span>
         </h2>
-        <p className="hero__text">
-          My main focus is in the UX/UI field, where I combine my frontend
-          experience with my video game development skills.
-        </p>
+        <p className="hero__text">Seeking absolute creativity </p>
+
         <footer className="hero__icons">
           <a
             href="https://github.com/andresRivera123"
             className="icons__link"
+            rel="noreferrer"
             target="_blank"
           >
             <img
@@ -37,6 +40,7 @@ export const Hero = () => {
           </a>
           <a
             href="https://www.linkedin.com/in/carlos-andres-rivera-valle/"
+            rel="noreferrer"
             className="icons__link"
             target="_blank"
           >

@@ -5,38 +5,51 @@ import {
   TimelineDot,
   TimelineOppositeContent,
   TimelineSeparator,
-  TimelineItem
+  TimelineItem,
+  timelineOppositeContentClasses,
 } from "@mui/lab";
-import { achievementsDetails } from "../utils/achievementsItems";
+import { EXPERIENCE } from "../utils/experienceItems";
+import "../styles/experience.css";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
-export default function TimelineAchievements() {
+export default function Timelineexperiences() {
   return (
     <Timeline
       position="right"
-      sx={{m: 0, p: 0}}
+      sx={{
+        m: 0,
+        p: 0,
+        [`& .${timelineOppositeContentClasses.root}`]: {
+          flex: 0.2,
+        },
+      }}
     >
-      {achievementsDetails.map((achievement) => (
-        <TimelineItem>
-          <TimelineOppositeContent sx={{ m: "auto 0" }} align="right">
-            <p className="text"> {achievement.date}</p>
-          </TimelineOppositeContent>
+      {EXPERIENCE.map((experience) => (
+        <TimelineItem
+          key={experience.title}
+          sx={{ paddingLeft: { xs: "0px", md: "3.2rem" } }}
+        >
+          <TimelineOppositeContent
+            sx={{ display: "none" }}
+            align="right"
+          ></TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
-            <TimelineDot sx={{ bgcolor: "#80574e" }}>
-              {achievement.icon}
-            </TimelineDot>
+            <TimelineDot sx={{ bgcolor: "#754d45" }}></TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent sx={{py: 4}}>
-            <h3 className="text">{achievement.title}</h3>
-            <p className="text">{achievement.description}</p>
-            {achievement.link && (
+          <TimelineContent sx={{ py: 4 }}>
+            <p className="experience__date">{experience.date}</p>
+            <h3 className="text__interactive">{experience.title}</h3>
+            <p className="text">{experience.description}</p>
+            {experience.link && (
               <a
-                href={achievement.link}
+                className="experience__link"
+                href={experience.link}
                 target="_blank"
-                className="text who__link text__interactive"
+                rel="noreferrer"
               >
-                View certificate
+                Last web created<ArrowForwardIcon fontSize="large"/>
               </a>
             )}
           </TimelineContent>

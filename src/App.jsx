@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import "./assets/styles/body.css";
 import "./App.css";
-import "./assets/styles/tabs.css"
+import "./assets/styles/tabs.css";
 import { tabs } from "./assets/utils/tabsDetails";
 import { PacmanLoader } from "react-spinners";
 import About from "./assets/components/About";
 import Projects from "./assets/components/Projects";
 import Achievements from "./assets/components/Achievements";
 import { Toolbox } from "./assets/components/Toolbox";
-import { Hero } from "./assets/components/hero";
+import { Hero } from "./assets/components/Hero";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -25,7 +25,7 @@ function App() {
   };
 
   return (
-    <div className="body__container">
+    <div id="contact" className="body__container">
       {loading ? (
         <div className="pacman__container">
           <PacmanLoader
@@ -67,13 +67,9 @@ function App() {
             <section className="hero__container">
               <Hero />
             </section>
-            <section id="achievements" className="container__section">
+            <section id="experience" className="container__section">
               <h2 className="title">Experience</h2>
               <Achievements />
-            </section>
-            <section id="about" className="container__section">
-              <h2 className="title">Who is Andrés?</h2>
-              <About />
             </section>
             <section className="container__section">
               <h2 className="title">Toolbox</h2>
@@ -83,7 +79,10 @@ function App() {
               <h2 className="title">Projects</h2>
               <Projects />
             </section>
-
+            <section id="about" className="container__section">
+              <h2 className="title">Who is Andrés?</h2>
+              <About />
+            </section>
           </main>
         </>
       )}

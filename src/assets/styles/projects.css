@@ -36,11 +36,13 @@
 
 .project__list {
   margin-top: 1.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.4rem;
 }
 
 .project__container {
-  padding-top: 2.4rem;
-  padding-bottom: 2.4rem;
+  padding-bottom: 2.4rem  ;
 
 }
 
