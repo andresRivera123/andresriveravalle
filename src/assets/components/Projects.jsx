@@ -12,12 +12,10 @@ export default function Projects() {
 
               <p className="project__text">{project.description}</p>
               <div className="project__tags">
-                {project.tags.map((tag, tagIndex) => (
-                  <div key={tagIndex}>
-
-                    <p  className="text tag">
-                      {tag}
-                    </p>
+                <p className="tags__title">Tools: </p>
+                {project.tags.map((tag) => (
+                  <div key={tag.alt}>
+                    <img className="tags__img" src={tag.img} alt={tag.alt} />
                   </div>
                 ))}
               </div>
@@ -26,6 +24,7 @@ export default function Projects() {
                 className="project__image-img"
                 alt={`${project.name} image`}
               />
+              <p className="tags__title">Links: </p>
             </div>
           </div>
         ))}

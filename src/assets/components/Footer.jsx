@@ -5,7 +5,9 @@ export const Footer = () => {
     <div className="footer">
       <p className="footer__text">© 2024 Andrés Rivera Valle.</p>
 
-      <img className="footer_img" src={logoFooter} alt="Logo footer" />
+      <a href="#contact">
+        <img className="footer_img" src={logoFooter} alt="Logo footer" />
+      </a>
     </div>
   );
 };

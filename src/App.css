@@ -6,7 +6,7 @@
   --interactive-color: #754d45;
   --green-color: #356463;
   --blue-color: #3185a3;
-  --gray-color: #666666;
+  --gray-color: #333333;
   --gray-light-color: #cdcdcd;
   --white-color: #ffffff;
 }
@@ -52,6 +52,7 @@ html {
   font-size: 1.6rem;
   margin: 0;
   color: var(--text-color);
+  text-wrap: pretty;
 }
 
 .text__mb {

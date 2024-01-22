@@ -55,7 +55,7 @@ export const Hero = () => {
           <img
             className="icons__item"
             src={mailIcon}
-            alt="Linkedin icon"
+            alt="Send mail icon"
             width="40"
             onClick={handleEmailClick}
           />

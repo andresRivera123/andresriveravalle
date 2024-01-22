@@ -49,7 +49,8 @@ export default function Timelineexperiences() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Last web created<ArrowForwardIcon fontSize="large"/>
+                {experience.linkText}
+                <ArrowForwardIcon fontSize="large" />
               </a>
             )}
           </TimelineContent>
