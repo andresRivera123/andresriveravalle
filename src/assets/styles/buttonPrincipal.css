@@ -1,5 +1,5 @@
 .button__principal {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   gap: 1.2rem;
   text-decoration: none;
@@ -24,4 +24,14 @@
 
 .button__principal-icon {
   width: 2.4rem;
+}
+
+@media(max-width: 768px){
+  .button__principal p {
+    font-size: 1.4rem;
+  }
+
+  .button__principal-icon {
+    width: 2rem;
+  }
 }

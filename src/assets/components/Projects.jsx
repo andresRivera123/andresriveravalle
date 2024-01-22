@@ -1,6 +1,6 @@
 import "../styles/projects.css";
 import { projectsDetails } from "../utils/projectsDetails";
-import {buttonPrincipal} from "../components/buttonPrincipal"
+import { buttonPrincipal } from "../components/buttonPrincipal";
 
 export default function Projects() {
   return (
@@ -25,10 +25,11 @@ export default function Projects() {
                 className="project__image-img"
                 alt={`${project.name} image`}
               />
-              <p className="tags__title">Links: </p>
-              {project.url.map((url) => (
-                buttonPrincipal(url.url, url.icon,url.urlText, false)
-              ))}
+              <div className="project__urls">
+                {project.url.map((url) =>
+                  buttonPrincipal(url.url, url.icon, url.urlText, false)
+                )}
+              </div>
             </div>
           </div>
         ))}

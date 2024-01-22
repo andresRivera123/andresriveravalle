@@ -2,7 +2,7 @@ import "../styles/about.css";
 import meImage from "../images/me-circle.svg";
 import archivePDF from "../../../CV.pdf";
 import "../logic/scrollNav";
-import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+
 import { buttonPrincipal } from "./buttonPrincipal";
 export default function About() {
   return (
@@ -45,8 +45,7 @@ export default function About() {
             crafting <span className="who__span"> 2D video games </span> as a
             hobby.
           </p>
-
-          {buttonPrincipal(archivePDF, "", "View full resume", true)}
+          <div>{buttonPrincipal(archivePDF, "", "View full resume", true)}</div>
         </div>
       </div>
     </>
