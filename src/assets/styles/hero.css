@@ -61,7 +61,7 @@
 .hero__icons {
   display: flex;
   flex-wrap: wrap;
-  gap: 4rem;
+  gap: 2.8rem;
 }
 
 .icons__link {
@@ -88,6 +88,12 @@
 
   .hero__text {
     font-size: 2rem;
+  }
+
+  .hero__icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6rem;
   }
 
   .hero__container {
