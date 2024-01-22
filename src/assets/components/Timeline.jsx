@@ -11,6 +11,7 @@ import {
 import { EXPERIENCE } from "../utils/experienceItems";
 import "../styles/experience.css";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import {buttonPrincipal} from "../components/buttonPrincipal"
 
 export default function Timelineexperiences() {
   return (
@@ -42,17 +43,7 @@ export default function Timelineexperiences() {
             <p className="experience__date">{experience.date}</p>
             <h3 className="text__interactive">{experience.title}</h3>
             <p className="text">{experience.description}</p>
-            {experience.link && (
-              <a
-                className="experience__link"
-                href={experience.link}
-                target="_blank"
-                rel="noreferrer"
-              >
-                {experience.linkText}
-                <ArrowForwardIcon fontSize="large" />
-              </a>
-            )}
+            {buttonPrincipal(experience.link, "", experience.linkText, true)}
           </TimelineContent>
         </TimelineItem>
       ))}

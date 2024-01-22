@@ -6,6 +6,7 @@ import jsIcon from "../images/toolbox/tags/js.svg";
 import reactIcon from "../images/toolbox/tags/react.svg";
 import materialIcon from "../images/toolbox/tags/materialui.svg";
 import unityIcon from "../images/toolbox/tags/unity.svg";
+import githubIcon from "../images/links/github.svg";
 export const projectsDetails = [
   {
     name: "Website for Giss cleaning services",
@@ -24,9 +25,10 @@ export const projectsDetails = [
       {
         name: "Github",
         urlText: "View source code",
+        icon: githubIcon,
         url: "https://github.com/andresRivera123/Giss-Cleaning-Service-Page",
-        
       },
+
     ],
   },
   {
@@ -39,6 +41,8 @@ export const projectsDetails = [
     url: [
       {
         name: "Github",
+        urlText: "View source code",
+        icon: githubIcon,
         url: "https://github.com/andresRivera123/Alibaba-Game",
       },
     ],
