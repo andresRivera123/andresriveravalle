@@ -8,6 +8,7 @@ import materialIcon from "../images/toolbox/tags/materialui.svg";
 import unityIcon from "../images/toolbox/tags/unity.svg";
 import githubIcon from "../images/links/github.svg";
 import webIcon from "../images/web.svg"
+import playIcon from "../images/play.svg"
 export const projectsDetails = [
   {
     name: "Website for Giss cleaning services",
@@ -47,6 +48,11 @@ export const projectsDetails = [
         urlText: "View code",
         icon: githubIcon,
         url: "https://github.com/andresRivera123/Alibaba-Game",
+      },
+      {
+        urlText: "Play now",
+        icon: playIcon,
+        url: "https://rivera-del-valle.itch.io/ali-baba",
       },
     ],
   },
