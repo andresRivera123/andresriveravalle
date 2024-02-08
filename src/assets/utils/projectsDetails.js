@@ -1,4 +1,5 @@
 import gissImage from "../images/projects/giss.webp";
+import repliverseImage from "../images/projects/repliverse.jpg"
 import alibabaImage from "../images/projects/alibaba.webp";
 import htmlIcon from "../images/toolbox/tags/html.svg";
 import cssIcon from "../images/toolbox/tags/css.svg";
@@ -10,7 +11,7 @@ import githubIcon from "../images/links/github.svg";
 import webIcon from "../images/web.svg"
 import playIcon from "../images/play.svg"
 export const projectsDetails = [
-  {
+  /*{
     name: "Website for Giss cleaning services",
     description:
       "Website to advertise the cleaning service offered by Giss in New Jersey, USA. Requirements gathering, figma designs and validation by the client, development with React and site deployment.",
@@ -33,6 +34,30 @@ export const projectsDetails = [
         urlText: "View web",
         icon: webIcon,
         url: "https://andresrivera123.github.io/Giss-Cleaning-Service-Page/",
+      },
+    ],
+  },*/
+  {
+    name: "Deupload, replicating web designs.",
+    description:
+      "Taking as inspiration the original design of Deupload created by the author Conikal, I made a replica of the main page. First replica project for repliverse (future web design replica site).",
+    tags: [
+      { img: htmlIcon, alt: "HTML icon" },
+      { img: cssIcon, alt: "CSS icon" },
+      { img: jsIcon, alt: "Javascript icon" },
+    ],
+    category: "Web",
+    image: repliverseImage,
+    url: [
+      {
+        urlText: "View code",
+        icon: githubIcon,
+        url: "https://github.com/andresRivera123/repliverse/tree/82f38f1f1974985297b0c4100b4b356b2393ed4f/src/assets/pages/deupload",
+      },
+      {
+        urlText: "View web",
+        icon: webIcon,
+        url: "https://deupload-repliverse.netlify.app/",
       },
     ],
   },
