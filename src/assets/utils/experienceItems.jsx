@@ -1,11 +1,11 @@
 export const EXPERIENCE = [
   {
-    date: "September 2023-Present",
-    title: "Freelance web developer",
+    date: "February 2023-Present",
+    title: "Web designer - Ádraba",
     description:
-      "Creation of web-focused projects for clients and individuals. Emphasizing communication, requirements gathering, interface design with figma and development with technologies such as HTML, CSS, React, Figma and CSS frameworks.",
-    linkText: "Last web created",
-    link: "https://andresrivera123.github.io/Giss-Cleaning-Service-Page/",
+      "Web development and support, email layout and content updating for SMEs, businesses and small projects. Focused on digital marketing and dealing with the client to create creative solutions. Working with tools such as HTML, CSS, JS, Wordpress, Prestashop, Figma, Photoshop.",
+    linkText: "About my company",
+    link: "https://www.adraba.com/",
   },
   {
     date: "April 2023 - August 2023 ",
