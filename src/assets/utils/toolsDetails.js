@@ -4,6 +4,7 @@ import jsImage from "../images/toolbox/js.svg"
 import reactImage from "../images/toolbox/react.svg"
 import figmaImage from "../images/toolbox/figma.svg"
 import gitImage from "../images/toolbox/git.svg"
+import wordpressImage from "../images/toolbox/wordpress.svg"
 import materialImage from "../images/toolbox/material.svg"
 import tailwindImage from "../images/toolbox/tailwind.svg"
 import bootstrapImage from "../images/toolbox/bootstrap.svg"
@@ -33,6 +34,10 @@ export const toolsDetails = [
   {
     image: gitImage,
     name: "Git"
+  },
+  {
+    image: wordpressImage,
+    name: "Wordpress"
   },
   {
     image: materialImage,
