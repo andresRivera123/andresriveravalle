@@ -1,4 +1,4 @@
-import gissImage from "../images/projects/giss.webp";
+import linkedinImage from "../images/projects/linkedin.jpg"
 import repliverseImage from "../images/projects/repliverse.jpg"
 import alibabaImage from "../images/projects/alibaba.webp";
 import htmlIcon from "../images/toolbox/tags/html.svg";
@@ -11,32 +11,30 @@ import githubIcon from "../images/links/github.svg";
 import webIcon from "../images/web.svg"
 import playIcon from "../images/play.svg"
 export const projectsDetails = [
-  /*{
-    name: "Website for Giss cleaning services",
+  {
+    name: "LinkedIn Replica",
     description:
-      "Website to advertise the cleaning service offered by Giss in New Jersey, USA. Requirements gathering, figma designs and validation by the client, development with React and site deployment.",
+      "Currently replicating the LinkedIn home page (Second web for repliverse). This project is still under development.",
     tags: [
       { img: htmlIcon, alt: "HTML icon" },
       { img: cssIcon, alt: "CSS icon" },
       { img: jsIcon, alt: "Javascript icon" },
-      { img: reactIcon, alt: "React icon" },
-      { img: materialIcon, alt: "MaterialUI icon" },
     ],
     category: "Web",
-    image: gissImage,
+    image: linkedinImage,
     url: [
       {
         urlText: "View code",
         icon: githubIcon,
-        url: "https://github.com/andresRivera123/Giss-Cleaning-Service-Page",
+        url: "https://github.com/andresRivera123/repliverse/tree/main/src/assets/pages/linkedin",
       },
       {
         urlText: "View web",
         icon: webIcon,
-        url: "https://andresrivera123.github.io/Giss-Cleaning-Service-Page/",
+        url: "https://ephemeral-fairy-343d9d.netlify.app/", 
       },
     ],
-  },*/
+  },
   {
     name: "Deupload, replicating web designs.",
     description:
