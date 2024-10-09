@@ -15,7 +15,7 @@ export const Toolbox = () => {
               width="48"
               height="48"
             />
-            <p className="text">{tool.name}</p>
+            <h3 className="text">{tool.name}</h3>
           </div>
         ))}
       </div>

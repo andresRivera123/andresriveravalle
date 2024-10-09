@@ -9,7 +9,7 @@ export default function Projects() {
         {projectsDetails.map((project, index) => (
           <div className="project__container" key={index}>
             <div className="project__details">
-              <h2 className="project__title">{project.name}</h2>
+              <h3 className="project__title">{project.name}</h3>
 
               <p className="project__text">{project.description}</p>
               <div className="project__tags">
