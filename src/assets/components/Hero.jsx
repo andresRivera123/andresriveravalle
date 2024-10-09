@@ -23,7 +23,6 @@ export const Hero = () => {
           <span style={{ color: "var(--blue-color)" }}> UX/UI designer </span>
         </h2>
         <p className="hero__text">Seeking absolute creativity </p>
-
         <footer className="hero__icons">
           {buttonPrincipal(
             "https://github.com/andresRivera123",
