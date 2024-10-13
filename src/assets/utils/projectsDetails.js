@@ -31,7 +31,7 @@ export const projectsDetails = [
       {
         urlText: "View web",
         icon: webIcon,
-        url: "https://ephemeral-fairy-343d9d.netlify.app/", 
+        url: "https://linkdein-fake-andy.netlify.app/", 
       },
     ],
   },
