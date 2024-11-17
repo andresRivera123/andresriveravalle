@@ -26,12 +26,12 @@ export const projectsDetails = [
       {
         urlText: "View code",
         icon: githubIcon,
-        url: "https://github.com/andresRivera123/repliverse/tree/main/src/assets/pages/linkedin",
+        url: "https://github.com/andresRivera123/repliverse/tree/main/linkedin",
       },
       {
         urlText: "View web",
         icon: webIcon,
-        url: "https://linkdein-fake-andy.netlify.app/", 
+        url: "https://linkedin-inky.vercel.app/", 
       },
     ],
   },
@@ -50,12 +50,12 @@ export const projectsDetails = [
       {
         urlText: "View code",
         icon: githubIcon,
-        url: "https://github.com/andresRivera123/repliverse/tree/82f38f1f1974985297b0c4100b4b356b2393ed4f/src/assets/pages/deupload",
+        url: "https://github.com/andresRivera123/repliverse/tree/main/deupload",
       },
       {
         urlText: "View web",
         icon: webIcon,
-        url: "https://deupload-repliverse.netlify.app/",
+        url: "https://deupload-nine.vercel.app/",
       },
     ],
   },
