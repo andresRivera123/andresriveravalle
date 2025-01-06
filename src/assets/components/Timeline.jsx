@@ -34,11 +34,17 @@ export default function Timelineexperiences() {
             align="right"
           ></TimelineOppositeContent>
           <TimelineSeparator>
-            <TimelineConnector />
-            <TimelineDot sx={{ bgcolor: "#754d45" }}></TimelineDot>
-            <TimelineConnector />
+            <TimelineConnector
+              sx={{ backgroundColor: "var(--text-color)", opacity: "0.1" }}
+            />
+            <TimelineDot
+              sx={{ bgcolor: "var(--interactive-color)" }}
+            ></TimelineDot>
+            <TimelineConnector
+              sx={{ backgroundColor: "var(--text-color)", opacity: "0.1" }}
+            />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: 4 }}>
+          <TimelineContent sx={{ py: 4, fontFamily: "SFpro" }}>
             <p className="experience__date">{experience.date}</p>
             <h3 className="text__interactive">{experience.title}</h3>
             <p className="text text__mb">{experience.description}</p>

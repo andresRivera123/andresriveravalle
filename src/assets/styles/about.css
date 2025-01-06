@@ -46,6 +46,10 @@
   font-weight: 600;
 }
 
+.who__cta{
+  margin-top: 12px;
+}
+
 .about__toolbox {
   display: flex;
   flex-direction: column;
@@ -75,6 +79,7 @@
   margin-bottom: 0.8rem;
 }
 
+
 @media (max-width: 700px) {
   .about__who {
     flex-direction: column;
@@ -93,8 +98,8 @@
   }
 
   .who__image {
-    width: 240px;
-    max-width: 240px;
+    width: 100%;
+    max-width: 500px;
     object-fit: cover;
     border-radius: 1.5rem;
     max-width: 100%;

@@ -1,5 +1,5 @@
 import "../styles/about.css";
-import meImage from "../images/me-circle.svg";
+import meImage from "../images/about-me.webp";
 import archivePDF from "../../../CV.pdf";
 import "../logic/scrollNav";
 
@@ -13,7 +13,7 @@ export default function About() {
             src={meImage}
             alt="who is Andy?"
             className="who__image"
-            width="400"
+            width="650"
             height="240"
           />
         </div>
@@ -45,7 +45,7 @@ export default function About() {
             crafting <span className="who__span"> 2D video games </span> as a
             hobby.
           </p>
-          <div>{buttonPrincipal(archivePDF, "", "View full resume", true)}</div>
+          <div class="who__cta">{buttonPrincipal(archivePDF, "", "View full resume", true)}</div>
         </div>
       </div>
     </>

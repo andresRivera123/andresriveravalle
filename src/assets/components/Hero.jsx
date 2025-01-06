@@ -1,4 +1,4 @@
-import imageLogo from "../images/logo.jpg";
+import meLogo from "../images/me.webp";
 import "../styles/hero.css";
 import gitIcon from "../images/links/github.svg";
 import linkedinIcon from "../images/links/linkedin.svg";
@@ -11,9 +11,8 @@ export const Hero = () => {
 
   return (
     <>
-      <img src={imageLogo} alt="Image logo" className="hero__logo-out" />
+      <img src={meLogo} alt="Image logo" className="hero__logo" />
       <div className="hero__information">
-        <img src={imageLogo} alt="Image logo" className="hero__logo" />
         <h1 className="hero__title">Andrés Rivera Valle</h1>
         <h2 className="hero__subtitle">
           Software Engineer{" "}
@@ -22,7 +21,6 @@ export const Hero = () => {
           </span>
           <span style={{ color: "var(--blue-color)" }}> UX/UI designer </span>
         </h2>
-        <p className="hero__text">Seeking absolute creativity </p>
 
         <footer className="hero__icons">
           {buttonPrincipal(

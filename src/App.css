@@ -1,7 +1,7 @@
 :root {
   /* COLORS */
   --background-color: #f5eacc;
-  --text-color: #111111;
+  --text-color: #333;
   --light-black-color: #888888;
   --interactive-color: #754d45;
   --green-color: #356463;
@@ -26,8 +26,13 @@
 }
 
 html {
-  font-family: SFpro-Title, sans-serif;
   scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(./assets/images/bg-abstract.svg);
+  background-position: center;
+  font-family: SFpro-Title, sans-serif !important;
 }
 
 /* Texts */
@@ -79,13 +84,17 @@ html {
   height: 100vh;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
   .container__section {
     padding-top: 12rem;
   }
+
+  .title {
+    font-size: 2.4rem;
+  }
 }
 
-@media (max-width: 425px){
+@media (max-width: 425px) {
   .container__section {
     padding-top: 10rem;
   }

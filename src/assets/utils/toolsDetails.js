@@ -8,6 +8,7 @@ import wordpressImage from "../images/toolbox/wordpress.svg"
 import materialImage from "../images/toolbox/material.svg"
 import tailwindImage from "../images/toolbox/tailwind.svg"
 import bootstrapImage from "../images/toolbox/bootstrap.svg"
+import astroImage from "../images/toolbox/astro.svg"
 import unityImage from "../images/toolbox/unity.svg"
 
 export const toolsDetails = [
@@ -50,6 +51,10 @@ export const toolsDetails = [
   {
     image: tailwindImage,
     name: "TailwindCSS"
+  },
+  {
+    image: astroImage,
+    name: "Astro"
   },
   {
     image: unityImage,
