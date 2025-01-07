@@ -3,7 +3,7 @@ export const EXPERIENCE = [
     date: "February 2024-Present",
     title: "Web designer - Ádraba",
     description:
-      "Web development and support, email layout and content updating for SMEs, businesses and small projects. Focused on digital marketing and dealing with the client to create creative solutions. Working with tools such as HTML, CSS, JS, Wordpress, Prestashop, Figma, Photoshop.",
+      "Web development and support, email layout and content updating for SMEs, businesses and corporate projects. Focused on digital marketing and dealing with the client to create creative solutions. Working with tools such as HTML, CSS, JS, Wordpress, Prestashop, Figma, Photoshop.",
     linkText: "About my company",
     link: "https://www.adraba.com/",
   },
