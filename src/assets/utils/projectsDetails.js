@@ -1,4 +1,5 @@
 import linkedinImage from "../images/projects/linkedin.webp";
+import pgAsesorias from "../images/projects/pg-asesorias.webp"
 import adoptaImage from "../images/projects/adopta-valenciano.webp";
 import chefArmandoImage from "../images/projects/chef-armando-rivera.webp";
 import repliverseImage from "../images/projects/repliverse.webp";
@@ -7,8 +8,9 @@ import htmlIcon from "../images/toolbox/tags/html.svg";
 import cssIcon from "../images/toolbox/tags/css.svg";
 import jsIcon from "../images/toolbox/tags/js.svg";
 import reactIcon from "../images/toolbox/tags/react.svg";
-import AstroIcon from "../images/toolbox/astro.svg";
-import TailwindIcon from "../images/toolbox/tailwind.svg";
+import astroIcon from "../images/toolbox/astro.svg";
+import tailwindIcon from "../images/toolbox/tailwind.svg";
+import wordpressIcon from "../images/toolbox/wordpress.svg"
 import materialIcon from "../images/toolbox/tags/materialui.svg";
 import figma from "../images/toolbox/figma.svg";
 import unityIcon from "../images/toolbox/tags/unity.svg";
@@ -17,15 +19,32 @@ import webIcon from "../images/web.svg";
 import playIcon from "../images/play.svg";
 export const projectsDetails = [
   {
-    name: "Chef Armando Rivera",
+    name: "PG Asesorías",
+    description:
+      "A management system developed to digitize the operations of PG asesorías in Santiago de Chile. The web application provides a dynamic and searchable database of all vehicles serviced by the workshop, streamlining their management with the ability to create new records and update existing information. The key feature is the integration with the Amelia API for appointment management, creating a direct bridge between the automotive services offered and client scheduling.",
+    tags: [
+      { img: wordpressIcon, alt: "Wordpress icon" },
+      { img: figma, alt: "Figma icon"}
+    ],
+    category: "Web",
+    image: pgAsesorias,
+    url: [
+      {
+        urlText: "View web",
+        icon: webIcon,
+        url: "https://pgasesorias.cl/",
+      },
+    ],
+  },
+  {
+    name: "PG Asesorías",
     description:
       "Learn about my father's career Chef Armando Rivera, and his work around the world. The website features a modern design, optimized photos, intuitive navigation, dynamic blog paths and a focus on user experience, responsiveness and SEO positioning.",
     tags: [
-      { img: htmlIcon, alt: "HTML icon" },
       { img: cssIcon, alt: "CSS icon" },
       { img: jsIcon, alt: "Javascript icon" },
-      { img: AstroIcon, alt: "Astro icon" },
-      { img: TailwindIcon, alt: "Astro icon" },
+      { img: astroIcon, alt: "Astro icon" },
+      { img: tailwindIcon, alt: "Astro icon" },
     ],
     category: "Web",
     image: chefArmandoImage,
