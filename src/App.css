@@ -11,6 +11,23 @@
   --white-color: #ffffff;
 }
 
+@media (prefers-color-scheme: dark){
+    :root {
+    /* MODO OSCURO */
+    --background-color: #0f0f0f;
+    --text-color: #f0f0f0;
+    --light-black-color: #b0b0b0;
+    --interactive-color: #c89d95;
+    --green-color: #5ba6a5;
+    --blue-color: #5ba6c5;
+    --gray-color: #cccccc;
+    --gray-light-color: #333333;
+    --white-color: #1a1a1a;
+    --card-bg: #2a2a2a;
+    --border-color: #444444;
+  }
+}
+
 /* Fonts */
 @font-face {
   /* Texts */
