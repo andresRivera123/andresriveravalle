@@ -1,3 +1,4 @@
+import cavalli from "../images/projects/cavalli-luxe.webp"
 import linkedinImage from "../images/projects/linkedin.webp";
 import pgAsesorias from "../images/projects/pg-asesorias.webp"
 import adoptaImage from "../images/projects/adopta-valenciano.webp";
@@ -18,6 +19,24 @@ import githubIcon from "../images/links/github.svg";
 import webIcon from "../images/web.svg";
 import playIcon from "../images/play.svg";
 export const projectsDetails = [
+   {
+    name: "Cavalli Luxe Horse Transport",
+    description:
+      "A high-end web platform designed for an international horse transport company. The project features a multilingual system to serve the European market. It includes a specialized service architecture, custom SEO optimization for the equestrian luxury niche, and a focus on user experience for elite riders and stables, ensuring a seamless interface for booking professional equine logistics.",
+    tags: [
+      { img: wordpressIcon, alt: "Wordpress icon" },
+      { img: figma, alt: "Figma icon"}
+    ],
+    category: "Web",
+    image: cavalli,
+    url: [
+      {
+        urlText: "View web",
+        icon: webIcon,
+        url: "https://cavallihorsetransport.eu/",
+      },
+    ],
+  },
   {
     name: "PG Asesorías",
     description:
