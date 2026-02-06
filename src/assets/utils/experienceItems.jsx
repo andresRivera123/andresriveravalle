@@ -3,7 +3,7 @@ export const EXPERIENCE = [
     date: "January 2025 - Present",
     title: "Freelance Web Developer - Ireland, Dublin",
     description:
-      "Development of customized web projects and digital products for a diverse clientele. I combine creative UI/UX design with clean code to build dynamic and scalable digital experiences, from concept to deployment.",
+      "Development of customized web projects and digital products for a diverse clients. I combine creative UI/UX design with clean code to build dynamic and scalable digital experiences, from concept to deployment.",
     linkText: "Last project",
     link: "https://pgasesorias.cl/",
   },
