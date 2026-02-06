@@ -8,6 +8,7 @@ import Projects from "./assets/components/Projects";
 import Achievements from "./assets/components/Achievements";
 import { Toolbox } from "./assets/components/Toolbox";
 import { Hero } from "./assets/components/Hero";
+import Certifications from "./assets/components/Certifications";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -70,6 +71,11 @@ function App() {
           <section id="about" className="container__section">
             <h2 className="title">Who is Andrés?</h2>
             <About />
+          </section>
+         
+          <section className="container__section">
+             <h2 className="title">Certifications</h2>
+            <Certifications/>
           </section>
         </main>
 
