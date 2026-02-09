@@ -9,7 +9,12 @@ export default function Projects() {
         {projectsDetails.map((project, index) => (
           <div className="project__container" key={index}>
             <div className="project__details">
-              <h3 className="project__title">{project.name}</h3>
+              <h3 className="project__title">
+                {project.name}
+                {project.name === "Adopta un Valenciano" && (<span className="project__title-details">
+                  Project Completed (Offline)
+                </span>)}
+              </h3>
 
               <p className="project__text">{project.description}</p>
               <div className="project__tags">
@@ -27,7 +32,7 @@ export default function Projects() {
               />
               <div className="project__urls">
                 {project.url.map((url) =>
-                  buttonPrincipal(url.url, url.icon, url.urlText, false)
+                  buttonPrincipal(url.url, url.icon, url.urlText, false),
                 )}
               </div>
             </div>

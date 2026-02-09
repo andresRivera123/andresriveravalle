@@ -18,6 +18,7 @@ import unityIcon from "../images/toolbox/tags/unity.svg";
 import githubIcon from "../images/links/github.svg";
 import webIcon from "../images/web.svg";
 import playIcon from "../images/play.svg";
+import videoIcon from "../images/video.svg"
 export const projectsDetails = [
    {
     name: "Cavalli Luxe Horse Transport",
@@ -95,9 +96,9 @@ export const projectsDetails = [
     image: adoptaImage,
     url: [
       {
-        urlText: "View web",
-        icon: webIcon,
-        url: "https://adoptaunvalenciano.es/",
+        urlText: "Watch video",
+        icon: videoIcon,
+        url: "https://www.youtube.com/watch?v=KWShMDVCq-M",
       },
     ],
   },
