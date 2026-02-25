@@ -5,7 +5,7 @@ export const EXPERIENCE = [
     description:
       "Development of customized web projects and digital products for a diverse clients. I combine creative UI/UX design with clean code to build dynamic and scalable digital experiences, from concept to deployment.",
     linkText: "Last project",
-    link: "https://pgasesorias.cl/",
+    link: "https://cavallihorsetransport.eu/",
   },
   {
     date: "February 2024- January 2025",
